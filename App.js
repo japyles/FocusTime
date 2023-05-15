@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, SafeAreaView, Platform, StatusBar } from 'react-native';
 import { colors } from './src/utils/colors';
 import { Focus } from './src/features/Focus';
