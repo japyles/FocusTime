@@ -9,7 +9,7 @@ export default function App() {
   const [currentSubject, setCurrentSubject] = useState('test'); 
   return (
     <SafeAreaView style={styles.container} >
-      { !currentSubject ? <Focus addSubject={setCurrentSubject} /> : <Timer focusSubject={currentSubject} onTimerEnd={() => {}} clearSubject={() => {}} /> }
+      { !currentSubject ? <Focus addSubject={setCurrentSubject} /> : <Timer focusSubject={currentSubject} onTimerEnd={() => {}} clearSubject={() => setCurrentSubject(null)} /> }
     </SafeAreaView>
   );
 }
