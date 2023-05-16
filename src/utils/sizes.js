@@ -5,7 +5,7 @@ export const fontSizes = {
     xl: 32,
     xxl: 40,
     xxxl: 80,
-}
+};
 
 export const spacing = {
     sm: 8,
@@ -14,4 +14,4 @@ export const spacing = {
     xl: 32,
     xxl: 40,
     xxxl: 80,
-}
+};
